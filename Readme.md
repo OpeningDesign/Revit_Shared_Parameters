@@ -1,0 +1,2 @@
+- [NBS BIM Object Shared Parameters](https://www.nationalbimlibrary.com/nbs-shared-parameters)
+- [OpenRFA: Crowdsourced shared parameters for Revit.](http://openrfa.org/)
