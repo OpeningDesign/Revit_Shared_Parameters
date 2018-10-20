@@ -1,15 +1,14 @@
-# This is a Revit shared parameter file.							
+<h1>This is a Revit shared parameter file.</h1>
 
-# These parameters are part of an ongoing collaborative effort by OpenRFA.							
+<h1>These parameters are part of an ongoing collaborative effort by OpenRFA.</h1>
 
-# If you would like to add, remove, or modify any parameters in this file, please join us: http://OpenRFA.org.							
+<h1>If you would like to add, remove, or modify any parameters in this file, please join us: http://OpenRFA.org.</h1>
 
-# Do not edit manually.							
+<h1>Do not edit manually.</h1>
 
-*META	VERSION	MINVERSION					
+<p>*META   VERSION MINVERSION</p>
 
-META	2	1					
-
+<p>META    2   1</p>
 *GROUP	ID	NAME
 GROUP	229	Common
 GROUP	364	Architectural
@@ -46,7 +45,6 @@ PARAM	f86c82e3-d841-4b8c-82ac-7cd93a6d9f05	AirFlowVentilationActual	HVAC_AIR_FLO
 PARAM	4adda7c4-0aa7-4cf6-b83a-410584f64de1	AirFlowVentilationDesign	HVAC_AIR_FLOW		199	1		1
 PARAM	3fd35489-5638-4093-a193-19167dab93b9	AirFlowVentilationRange	TEXT		199	1		1
 PARAM	020a1ac8-1a19-438f-8efa-ae561efb6355	AllocatedAirshaft	TEXT		199	1		1
-PARAM	4a4d1fec-7a04-479d-8e07-f9fc121018cc	AnalysisCeilingHeight	LENGTH		203	1	Calculated ceiling height different then default built in parameter.	1
 PARAM	9dbfc66c-1e46-49e6-883d-8aec1ca84595	AnalysisDataPriority	TEXT		203	1		1
 PARAM	a1722a10-767e-405d-a596-203a3397704f	AnalysisDataStatus	TEXT		203	1		1
 PARAM	a2b24447-ab9b-4df0-9958-887fc3c6cc08	AnalysisDataType	TEXT		203	1		1
@@ -59,6 +57,7 @@ PARAM	f6c3aaa3-9923-4a8a-b0f1-262658058c2d	AreaFilter2Face	AREA		199	1		1
 PARAM	2c2605ed-cfb8-4d8f-a1e2-ec1ee127adbf	AreaFilterFace	AREA		199	1		1
 PARAM	fc5874bf-ad17-4475-bcae-5aa7a2340733	AreaHeatingCoilFace	AREA		199	1		1
 PARAM	3c641327-51dd-48c8-9245-d8dec5f5b4db	AreaHeatPumpCoilFace	AREA		199	1		1
+PARAM	bb91b10e-9c4b-4c12-805b-4b8da56aa31a	AreaPerOccupantLifeSafety	AREA		364	1	The maximum floor area allowances per occupant of a building.	1
 PARAM	6b24e462-7699-4a07-a0ef-b0f457ad9b2c	AreaPreFilterFace	AREA		199	1		1
 PARAM	18dfb9c2-c38d-40c9-81f1-23635718cac5	AreaServer	TEXT		198	1		1
 PARAM	39a8fa6d-59a8-4183-8696-c7b565f8b3bd	AriNumber	TEXT		229	1		1
@@ -69,6 +68,7 @@ PARAM	0ade296b-90c2-4c18-bbd8-006322213a5e	BhpFanExhaustFailure	TEXT		199	1	BHP 
 PARAM	32f53a8d-7751-4215-833c-7d11e770a641	BhpFanSupply	TEXT		199	1	Brake horsepower of a supply fan	1
 PARAM	b9c6e02b-7097-43fa-ab94-13211af18f13	BhpFanSupplyFailure	TEXT		199	1	BHP of supply fan at failure conditions	1
 PARAM	27260813-9209-4893-b89d-6f0b39ffdf78	BladePosition	TEXT		198	1		1
+PARAM	a263aae2-5dee-40e5-bc48-aed8e5432fd8	BuildingId	TEXT		364	1	Code identification for a building, in addition to the BuildingName.	1
 PARAM	cdef336a-70f3-4aaa-b100-127bb986acbd	BuildingName	TEXT		364	1	The name or identification for a building.	1
 PARAM	d23d093a-23d6-4e6d-adc8-0c12acf315cf	BuildingSector	TEXT		364	1	Identify the area of a building.	1
 PARAM	be7557f6-58ed-4586-a0b2-cc7db02f5a13	BuildingType	TEXT		364	1		1
@@ -185,6 +185,11 @@ PARAM	a8de7e52-c530-421d-9a3e-35b053cddc81	EfficiencyHeating	NUMBER		199	1		1
 PARAM	54c31ad3-7311-4150-bf80-e868887bed6a	EfficiencyMotor	NUMBER		198	1	Motor Efficiency	1
 PARAM	605b4a7e-4ac8-4284-9983-26b474ce82e6	EfficiencyRatingFilter	NUMBER		199	1	The filter Beta Rating expressed as a percentage.	1
 PARAM	e76deb2c-5f2d-4da5-a4ec-4747e7912521	EfficiencySupplyFanMotor	NUMBER		199	1	Motor efficiency of a supply fan	1
+PARAM	fd678d33-22e2-4c0f-94de-42ebab66db41	EmbedPlateHeight	LENGTH		365	1	The height of an embed plate.	1
+PARAM	22db6d6b-2194-4a15-8cea-17bb0edf185c	EmbedPlateThickness	LENGTH		365	1	The thickness of an embed plate.	1
+PARAM	2df90105-0f14-42f7-b165-427dac95ce48	EmbedPlateWidth	LENGTH		365	1	The width of an embed plate.	1
+PARAM	638b4524-f4e7-4345-9174-757e1bba6b17	EmbedStudDiameter	LENGTH		365	1	The diameter of an embed stud.	1
+PARAM	e38431c5-a71e-4396-abe7-19a58aa21ae3	EmbedStudLength	LENGTH		365	1	The length of an embed stud.	1
 PARAM	73fb1063-44cb-4ddd-8543-ef0770669b1e	EpaRating	TEXT		198	1		1
 PARAM	61ff3d56-09d7-4049-8c78-4abe745e4e5a	EquipmentName	TEXT		229	1		1
 PARAM	758c97dc-6b88-4fbd-9570-4affdc32f08d	EquipmentNumber	TEXT		229	1		1
@@ -214,11 +219,11 @@ PARAM	d5abad16-82c5-4cd1-b9c2-19f80004e322	HeatingType	TEXT		199	1		1
 PARAM	bdce4c61-219b-4899-a5fc-10c404b173fb	HeatOfAbsorption	HVAC_HEATING_LOAD		199	1		1
 PARAM	ea4455c7-a63a-4a32-9ff4-649f6da8044e	HeatOfRejection	HVAC_COOLING_LOAD		199	1		1
 PARAM	a25a4592-e0c7-415c-8d27-c6800598974b	HeightAboveFinishedFloor	LENGTH		229	1		1
+PARAM	4a4d1fec-7a04-479d-8e07-f9fc121018cc	HeightCeilingAnalysis	LENGTH		203	1	Calculated ceiling height different then default built in parameter.	1
 PARAM	a7a1d992-0925-4789-983a-e65917f90e7e	HeightEmbedPlate	LENGTH		365	1	The height of a structural embed.	1
 PARAM	946dada4-841b-4f94-b15e-842d5cfdb48f	HeightFilter	LENGTH		199	1		1
 PARAM	2214fa52-01e0-47f6-baca-accacd17e70b	HeightFilter2	LENGTH		199	1		1
-PARAM	6e291afa-6a88-4e6b-9e2a-59bd900c51c5	HeightRackUnit	INTEGER		198	1		1
-PARAM	06893af1-8294-4096-8783-fe5c774bd362	HeightStructuralConnection	LENGTH		365	1	The height of a structural connection.	1
+PARAM	6e291afa-6a88-4e6b-9e2a-59bd900c51c5	HeightRackUnit	LENGTH		198	1	The height of a rack unit.	1
 PARAM	44baca92-eff4-4e7a-81cb-5b05c84d93c5	HeightUnit	LENGTH		229	1		1
 PARAM	841e6e01-0f71-43f6-9c13-38455e6244cf	HpFanCoolingTower	ELECTRICAL_POWER		198	1		1
 PARAM	e22f0984-5d4e-4cf6-998e-dc65f05ecea9	HpFanExhaust	ELECTRICAL_POWER		198	1		1
@@ -235,17 +240,11 @@ PARAM	ec4b1ee1-49ba-48c9-b89b-f33a91fe9bf4	LengthCircuitCable	LENGTH		198	1		1
 PARAM	0a55ae1c-0457-4a75-916a-420b91a51814	LengthEmbedCoverBottom	LENGTH		365	1	Helpful for calculating dimensions when there is a requirement for the bottom cover of a structural embed.	1
 PARAM	d3df1dec-8db9-42c1-9042-4466394c9bc8	LengthEmbedCoverTop	LENGTH		365	1	Helpful for calculating dimensions when there is a requirement for the top cover of a structural embed.	1
 PARAM	b14389c1-a6be-4e02-ace5-61d0eb9bb6e2	LengthEmbedPlate	LENGTH		365	1	The length of a linear structural embed (e.g., stud rail) plate.	1
-PARAM	d2674e12-8561-4b71-a3dc-1a4eb5853cff	LengthEmbedPlateHeadOffset	LENGTH		365	1	For linear embeds (e.g., stud rails) - The offset of the edge of plate to the first stud (head).	1
-PARAM	39006c89-ecf8-4772-9a7a-462711525a53	LengthEmbedPlateTailOffset	LENGTH		365	1	For linear embeds (e.g., stud rails) - The offset of the edge of plate to the last stud (tail).	1
 PARAM	2570377a-dcb7-4f16-9946-329564befbb7	LengthEmbedStud	LENGTH		365	1	The length of a stud on a structural embed.	1
-PARAM	0cc1ae11-f79c-40ad-878e-6011839d1214	LengthEmbedStudSpacing	LENGTH		365	1	The spacing between studs for a structural embed.	1
-PARAM	45d7a8e1-ada5-456d-bbab-58840781b400	LengthEmbedStudSpacingHorizontal	LENGTH		365	1	The spacing between horizontal studs on a structural connection.	1
-PARAM	9bca0384-5775-44fe-9d9c-37a41b0ce0a0	LengthEmbedStudSpacingVertical	LENGTH		365	1	The spacing between vertical studs on a structural connection.	1
 PARAM	4d52762d-5a01-4d66-b635-bdf7c0548061	LengthFilter	LENGTH		199	1		1
 PARAM	4ddaeaf9-3f00-4710-b87c-c5403bc8ce4b	LengthFilter2	LENGTH		199	1		1
 PARAM	68266bf6-f018-442e-bfdd-e4c74f34f795	LengthFittingCable	LENGTH		199	1		1
 PARAM	937eb359-c03c-400c-9604-9fa60bac4206	LengthRefrigerantInterconnectingPipe	LENGTH		199	1		1
-PARAM	19428b1c-3e33-4aa4-8b61-0c24424327b2	LengthStructuralConnection	LENGTH		365	1	The length of a structural connection.	1
 PARAM	a82b4c49-b010-4437-ad0c-bc209ca998b8	LengthUnit	LENGTH		229	1		1
 PARAM	542c2dc6-9290-48df-bf6d-b8e5282a9bef	Licensing	TEXT		229	1		1
 PARAM	d9b5945d-0ab7-4d90-a02f-3cd9c74f549b	LimitEnthalpyEconomizer	NUMBER		199	1		1
@@ -265,6 +264,11 @@ PARAM	db76bb26-8aa3-4348-94b7-6b2ce7bbed63	NominalCapacity	TEXT		229	1		1
 PARAM	4910d787-840b-4e63-90de-0235847d1509	Notes	TEXT		229	1		1
 PARAM	bd1b332e-5753-47b3-86b0-feff35a744ea	NumberOfCells	INTEGER		199	1		1
 PARAM	cfe50bd5-f20a-4e91-8dda-3e49ca13ebb3	NumberOfCycles	INTEGER		199	1	Number of cycles for a process associated with an element	1
+PARAM	3fc9be4d-8844-44d0-9de5-3560485fc21e	OccupantLoadLifeSafety	INTEGER		364	1	Used to determine means of egress requirements, the number of occupants for whom means of egress facilities shall be provided shall be established by the largest number computed.	1
+PARAM	8e715cf0-6200-486b-8daa-66824143ec40	OffsetEmbedStudBottom	LENGTH		365	1	The offset of an embed stud from the bottom of the plate.	1
+PARAM	00780a12-a451-4e62-9515-f0f298da82a0	OffsetEmbedStudLeft	LENGTH		365	1	The offset of an embed stud from the left side of the plate.	1
+PARAM	b29af869-bed8-482e-a078-a40e110d2201	OffsetEmbedStudRight	LENGTH		365	1	The offset of an embed stud from the right side of the plate.	1
+PARAM	b32a0395-b6a5-4084-924f-35afbcc52109	OffsetEmbedStudTop	LENGTH		365	1	The offset of an embed stud from the top of the plate.	1
 PARAM	c90e1f29-905a-4ad7-9938-8786a8da15c5	OutputSteam	NUMBER		199	1		1
 PARAM	f0592859-7558-4f7c-939e-592b0854ae80	PanelFeed	TEXT		198	1		1
 PARAM	217309ee-2874-43a9-99b3-37e211d7577e	PartNumber	TEXT		229	1		1
@@ -312,6 +316,8 @@ PARAM	2c223b5d-2c8e-40eb-bc03-c03c8008d961	PipingFlowHotGas2Actual	PIPING_FLOW		
 PARAM	ed17ef43-e531-449a-bc9c-42aadfd9428e	PipingFlowHotGas2Design	PIPING_FLOW		199	1		1
 PARAM	0a4f72aa-4e8d-47f3-ad8b-f4170a6ffe19	PipingFlowHotGasActual	PIPING_FLOW		199	1		1
 PARAM	b1943fb5-6dd5-4583-adf9-0c3b998fc4e4	PipingFlowHotGasDesign	PIPING_FLOW		199	1		1
+PARAM	0ee44900-7836-48e3-8440-3bb574ffacf0	PipingFlowIndustrialWaterActual	PIPING_FLOW		199	1	Industrial Water actual flow rate	1
+PARAM	8ad85e80-a92a-4c5c-940f-575988af7e5f	PipingFlowIndustrialWaterDesign	PIPING_FLOW		199	1	Industrial Water flow rate	1
 PARAM	97cbe6d5-e2c6-43d9-bf6a-5befb4e70972	PipingFlowIndustrialWaterFailure	PIPING_FLOW		199	1	Industrial Water failure flow rate	1
 PARAM	5db7219e-8422-4a33-845b-3297c2ed27ad	PipingFlowMakeupWaterActual	PIPING_FLOW		205	1		1
 PARAM	e71175d6-ab84-43fe-b060-f6f0dca51188	PipingFlowMakeupWaterDesign	PIPING_FLOW		205	1		1
@@ -398,6 +404,8 @@ PARAM	b199f19a-3340-4f08-8430-e23051c74ef9	PressureVentilationTotalStatic	HVAC_P
 PARAM	d735114c-8b00-4cde-87fd-d8fd4ce73d45	ProductName	TEXT		229	1		1
 PARAM	4786db00-e3ae-488f-ae29-facea5949421	ProjectPhase	TEXT		229	1		1
 PARAM	98696d63-4642-4dc8-86ef-0fc7afa63ed0	QtyEmbedStud	INTEGER		365	1	The number of studs in a structural embed.	1
+PARAM	b9e9b582-8220-4161-9e0d-e0dd56bb42ba	QtyEmbedStudHorizontal	INTEGER		365	1	The number of studs on a structural embed in a horizontal row.	1
+PARAM	7c12203e-62c5-4b2c-9d01-bc10d7567ae4	QtyEmbedStudVertical	INTEGER		365	1	The number of studs on a structural embed in a vertical column.	1
 PARAM	d6331fb0-0bdd-4255-92e3-42a7329d16a8	QuantityCable	INTEGER		198	1		1
 PARAM	b5009a38-818f-4bee-8311-b53c160dd57b	QuantityCircuitBreaker	INTEGER		198	1		1
 PARAM	54f248a2-977a-4245-ab17-451215cd6e86	QuantityCompressor	INTEGER		199	1		1
@@ -433,10 +441,13 @@ PARAM	fb0074fc-2e97-4b6d-9c1c-812c23fe6985	ReturnFanDrive	TEXT		199	1		1
 PARAM	450fa2c9-348d-490b-bd0a-dd98cee12c12	ReturnFanType	TEXT		199	1		1
 PARAM	0f7ffacc-2daf-40fa-bdc9-a715cc4dc0f3	RevitFamilyVersion	TEXT		229	1		1
 PARAM	92e1a920-871e-40c8-9587-814bb0c13a63	RowLocation	TEXT		198	1		1
+PARAM	a6ec34f7-1257-4d0e-982a-507c5a33245a	SequenceId	TEXT		229	1	Assigns an identification to elements for construction sequencing and scheduling.	1
 PARAM	84de768a-46b5-47c1-8b06-e85abc283ee2	SerialNumber	TEXT		229	1	A number showing the position of an item in a series on a manufactured article for the purposes of identification.	1
 PARAM	fedf2a69-4b45-4cd1-9d00-d99ad10892f0	SiteElevation	LENGTH		203	1		1
 PARAM	43a0f574-93df-4224-ad15-10111a8f71ce	SizeCircuitBreakerStandard	ELECTRICAL_CURRENT		198	1	The standard circuit breaker size based on NEC.	1
 PARAM	da421bf1-c896-4d8a-bd99-ecd0944bd708	SourcePanelJumperPosition	TEXT		198	1		1
+PARAM	45d7a8e1-ada5-456d-bbab-58840781b400	SpacingEmbedStudHorizontal	LENGTH		365	1	The spacing between horizontal studs on a structural connection.	1
+PARAM	9bca0384-5775-44fe-9d9c-37a41b0ce0a0	SpacingEmbedStudVertical	LENGTH		365	1	The spacing between vertical studs on a structural connection.	1
 PARAM	505d8b60-15a0-4552-89bc-99d020cb7abf	SpeedExhaustFanBlade	NUMBER		199	1		1
 PARAM	8e7505c1-ed2e-49e7-b126-02e7525f1671	SpeedExhaustFanBladeFailure	NUMBER		199	1	Exhaust fan blade speed at failure conditions	1
 PARAM	137de0ff-5374-4f6e-83c0-eeb138cd7201	SpeedExhaustFanMotor	NUMBER		199	1		1
@@ -508,7 +519,6 @@ PARAM	24c7619a-8eb3-4108-aab2-a0098137f654	TemperatureWetBulbLeavingHumidificati
 PARAM	5082d11e-d680-4227-9363-620bd4c36f60	TemperatureWetBulbMeanCoincident	HVAC_TEMPERATURE		199	1	Mean coincident wet bulb temperature	1
 PARAM	963b6262-f7c6-4a8b-ad3a-a5664238190a	ThicknessEmbedHost	LENGTH		365	1	Used to calculate structural embed dimensions when the host thickness (e.g., slab thickness) is needed as a variable.	1
 PARAM	eea535b6-8aa0-4189-a431-b070d4aca313	ThicknessEmbedPlate	LENGTH		365	1	The thickness of the plate of a structural embed.	1
-PARAM	5afa9839-c96a-41b3-a975-fbaa8ce05194	ThicknessStructuralConnection	LENGTH		365	1	The thickness of a structural connection.	1
 PARAM	21a4201c-13b4-40ae-be0c-8f181bae35ad	ThrowDistanceVelocityHigh	LENGTH		199	1		1
 PARAM	bccbe0d9-2efc-4013-8ac7-f2ab650ff95c	ThrowDistanceVelocityLow	LENGTH		199	1		1
 PARAM	ded67425-a34f-4c49-85e7-8f6bfd455960	ThrowDistanceVelocityMedium	LENGTH		199	1		1
@@ -554,8 +564,7 @@ PARAM	13c601bc-1194-4690-a0e7-7b23bd6f5cc8	WeightShipping	FORCE		229	1		1
 PARAM	16a58dc3-6232-4fc4-8dc5-84da62091880	WidthEmbedPlate	LENGTH		365	1	The width of a structural embed.	1
 PARAM	71e8bade-648e-42a5-9f3a-a17635258da4	WidthFilter	LENGTH		199	1		1
 PARAM	e7cea999-da5a-4c41-936d-c34c98b52b20	WidthFilter2	LENGTH		199	1		1
-PARAM	63b179ec-e805-48d4-bf2b-9ecd0219e4dc	WidthRackUnit	INTEGER		198	1		1
-PARAM	8227efd2-a7ea-4225-bdff-a9f3e64f7401	WidthStructuralConnection	LENGTH		365	1	The width of a structural connection.	1
+PARAM	63b179ec-e805-48d4-bf2b-9ecd0219e4dc	WidthRackUnit	LENGTH		198	1	The width of a rack unit.	1
 PARAM	e0b8b44f-1e66-463a-b556-cf302f5b5762	WidthUnit	LENGTH		229	1		1
 PARAM	7dfc1be1-c5d2-471a-b341-7532d2d1627c	Wiring	TEXT		198	1		1
 PARAM	8f7e5b6f-703a-4e5a-96dd-fe4047ff0bde	Year	INTEGER		229	1		1
